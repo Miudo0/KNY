@@ -42,6 +42,11 @@ android {
             jvmTarget.set(JvmTarget.JVM_11)
         }
     }
+    //por un error de deprecated en hilt
+//    tasks.withType<JavaCompile>().configureEach {
+//        options.compilerArgs.add("-Xlint:deprecation")
+//    }
+
     ksp {
         arg("room.schemaLocation", "$projectDir/schemas")
     }
@@ -71,6 +76,14 @@ dependencies {
 
 // Convertidor para JSON con Gson (opcional)
     implementation(libs.converter.gson)
+    //coil para la imagens en url
+    implementation(libs.coil.compose)
+
+    //para ir pidiendo nuevas paginas con esta libreria
+    // Paging 3 para Kotlin
+    implementation(libs.androidx.paging.runtime)
+    // Integración con Jetpack Compose
+    implementation(libs.androidx.paging.compose)
 
 
     implementation(libs.androidx.core.ktx)
