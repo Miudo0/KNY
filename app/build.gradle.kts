@@ -85,6 +85,10 @@ dependencies {
     // Integración con Jetpack Compose
     implementation(libs.androidx.paging.compose)
 
+    //para traducir desde la Api
+    implementation(libs.translate)
+    implementation(libs.kotlinx.coroutines.play.services)
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
