@@ -78,6 +78,7 @@ dependencies {
     implementation(libs.converter.gson)
     //coil para la imagens en url
     implementation(libs.coil.compose)
+    implementation(libs.coil.gif)
 
     //para ir pidiendo nuevas paginas con esta libreria
     // Paging 3 para Kotlin

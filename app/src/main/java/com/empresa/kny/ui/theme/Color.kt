@@ -9,3 +9,11 @@ val Pink80 = Color(0xFFEFB8C8)
 val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
+
+// Demon Slayer inspired palette
+val BloodRed = Color(0xFFB71C1C)
+val NichirinYellow = Color(0xFFFFC107)
+val MistBlue = Color(0xFF80CBC4)
+val ForestGreen = Color(0xFF2E7D32)
+val NightBlack = Color(0xFF0D0D0D)
+val PaperWhite = Color(0xFFF8F5F2)
